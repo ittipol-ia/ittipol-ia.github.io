@@ -12,26 +12,26 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "S&P 500",
-          "lvl": "7,513.29",
+          "lvl": "7,511.38",
           "chg": "-0.4%",
           "dir": "down"
         },
         {
           "name": "Nasdaq Composite",
-          "lvl": "25,870.94",
+          "lvl": "25,862.76",
           "chg": "-0.9%",
           "dir": "down"
         },
         {
           "name": "Dow Jones",
-          "lvl": "52,332.38",
-          "chg": "-0.3%",
+          "lvl": "52,322.10",
+          "chg": "-0.4%",
           "dir": "down"
         },
         {
           "name": "PHLX Semis (SOX)",
-          "lvl": "12,396.96",
-          "chg": "-2.1%",
+          "lvl": "12,382.21",
+          "chg": "-2.2%",
           "dir": "down"
         }
       ],
@@ -103,8 +103,8 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "US 10-yr Treasury",
-          "lvl": "4.63%",
-          "chg": "+1.8%",
+          "lvl": "4.62%",
+          "chg": "+1.7%",
           "dir": "up"
         },
         {
@@ -115,7 +115,7 @@ window.BRIEFING = {
         },
         {
           "name": "USD/JPY",
-          "lvl": "163.00",
+          "lvl": "163.01",
           "chg": "+0.5%",
           "dir": "up"
         },
@@ -141,19 +141,19 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "WTI Crude",
-          "lvl": "$84.38",
+          "lvl": "$84.42",
           "chg": "+6.9%",
           "dir": "up"
         },
         {
           "name": "Brent Crude",
-          "lvl": "$91.22",
+          "lvl": "$91.26",
           "chg": "+8.3%",
           "dir": "up"
         },
         {
           "name": "Gold",
-          "lvl": "$4,075.90",
+          "lvl": "$4,075.80",
           "chg": "+2.3%",
           "dir": "up"
         }
