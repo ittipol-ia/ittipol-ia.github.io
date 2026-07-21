@@ -1,0 +1,46 @@
+name: Update Market Briefing
+
+# Runs every day at 00:00 UTC = 07:00 Asia/Bangkok.
+# (GitHub may start scheduled runs a few minutes late — that's normal.)
+# You can also trigger it manually from the Actions tab (workflow_dispatch).
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-brief-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Build fresh market data
+        run: python build_data.py
+
+      - name: Commit updated data.js
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-update market data ($(TZ=Asia/Bangkok date +%Y-%m-%d))"
+            git push
+          fi
