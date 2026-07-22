@@ -12,26 +12,26 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "S&P 500",
-          "lvl": "7,511.38",
-          "chg": "-0.4%",
+          "lvl": "7,509.20",
+          "chg": "-0.5%",
           "dir": "down"
         },
         {
           "name": "Nasdaq Composite",
-          "lvl": "25,862.76",
-          "chg": "-0.9%",
+          "lvl": "25,837.21",
+          "chg": "-1.0%",
           "dir": "down"
         },
         {
           "name": "Dow Jones",
-          "lvl": "52,322.10",
-          "chg": "-0.4%",
+          "lvl": "52,224.64",
+          "chg": "-0.5%",
           "dir": "down"
         },
         {
           "name": "PHLX Semis (SOX)",
-          "lvl": "12,382.21",
-          "chg": "-2.2%",
+          "lvl": "12,356.16",
+          "chg": "-2.4%",
           "dir": "down"
         }
       ],
@@ -44,25 +44,25 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "Nikkei 225 (Tokyo)",
-          "lvl": "66,232.19",
-          "chg": "-2.2%",
+          "lvl": "66,115.60",
+          "chg": "-3.8%",
           "dir": "down"
         },
         {
           "name": "Hang Seng",
-          "lvl": "25,132.29",
-          "chg": "+3.3%",
+          "lvl": "24,892.66",
+          "chg": "+0.9%",
           "dir": "up"
         },
         {
           "name": "Shanghai Composite",
-          "lvl": "3,864.37",
-          "chg": "-2.3%",
+          "lvl": "3,867.03",
+          "chg": "-0.4%",
           "dir": "down"
         },
         {
           "name": "Kospi (Seoul)",
-          "lvl": "6,747.95",
+          "lvl": "6,797.70",
           "chg": "-0.9%",
           "dir": "down"
         }
@@ -76,15 +76,15 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "FTSE 100",
-          "lvl": "10,585.91",
-          "chg": "+0.5%",
+          "lvl": "10,708.20",
+          "chg": "+1.8%",
           "dir": "up"
         },
         {
           "name": "DAX",
-          "lvl": "25,011.35",
-          "chg": "-0.5%",
-          "dir": "down"
+          "lvl": "25,185.44",
+          "chg": "+0.7%",
+          "dir": "up"
         }
       ],
       "note": "Major European benchmarks."
@@ -103,32 +103,32 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "US 10-yr Treasury",
-          "lvl": "4.62%",
-          "chg": "+1.7%",
+          "lvl": "4.63%",
+          "chg": "+1.8%",
           "dir": "up"
         },
         {
           "name": "USD/THB",
-          "lvl": "33.69",
+          "lvl": "33.78",
           "chg": "+0.7%",
           "dir": "up"
         },
         {
           "name": "USD/JPY",
-          "lvl": "163.01",
-          "chg": "+0.5%",
+          "lvl": "162.97",
+          "chg": "+0.6%",
           "dir": "up"
         },
         {
           "name": "EUR/USD",
           "lvl": "1.1412",
-          "chg": "-0.1%",
+          "chg": "-0.5%",
           "dir": "down"
         },
         {
           "name": "Dollar Index (DXY)",
-          "lvl": "101.11",
-          "chg": "+0.4%",
+          "lvl": "101.10",
+          "chg": "+0.3%",
           "dir": "up"
         }
       ],
@@ -141,20 +141,20 @@ window.BRIEFING = {
       "rows": [
         {
           "name": "WTI Crude",
-          "lvl": "$84.42",
-          "chg": "+6.9%",
+          "lvl": "$87.34",
+          "chg": "+5.9%",
           "dir": "up"
         },
         {
           "name": "Brent Crude",
-          "lvl": "$91.26",
-          "chg": "+8.3%",
+          "lvl": "$94.06",
+          "chg": "+6.8%",
           "dir": "up"
         },
         {
           "name": "Gold",
-          "lvl": "$4,075.80",
-          "chg": "+2.3%",
+          "lvl": "$4,126.00",
+          "chg": "+2.8%",
           "dir": "up"
         }
       ],
